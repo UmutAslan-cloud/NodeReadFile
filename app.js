@@ -20,7 +20,7 @@ const readText = function (req, res) {
     res.writeHead(200, {
       'Content-Tpye': 'text/plain'
     });
-    res.end(`<h1>kime baktiniz?</h1>`);
+    res.end(`<h1>Hello World</h1>`);
   }
 }
 const server = http.createServer(readText);
